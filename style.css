@@ -1,0 +1,257 @@
+* {
+margin:0;
+padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(128, 188, 168);
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.left{
+    font-size: xx-large;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-size:medium;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 22px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+nav ul li a:hover{
+    font-size: larger;
+    font-style: oblique;
+}
+p{
+    font-size:20px;
+    color: black;
+    font-style: normal ;    
+
+}
+.left{
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.first{
+    display: flex;
+    justify-content:space-around;
+    margin: 80px 0;
+}
+.first > div{
+    width: 30%;
+}
+.c{
+    color: black;
+    font-size: 3rem;
+    margin: 30px;
+}
+.c img{
+    width: 280px;
+    height: 280px;
+}
+.R{
+    width: 80%;
+    margin: 50px 0;
+    
+    
+}
+.s{
+    color: brown;
+}
+#about{
+    padding: 80px 0;
+    color:black;
+}
+.ho{
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.about-c1{
+    flex-basis: 30%;
+}
+.about-c1 img{
+    width: 80%;
+    border-radius: 80px;
+}
+.about-c2{
+    flex-basis:70%;
+
+}
+.b{
+    color: brown;
+    font-size:40px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    text-align: justify;
+    color: black;
+}
+.hi{
+    color: brown;
+    font-size:40px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    
+}
+.tab{
+   color: black;
+    font-size: x-large;
+    border: 20px solid black;
+}
+#services{
+    padding: 30px 0;
+}
+.seviceslist{
+display: grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+grid-gap: 40px;
+margin-top: 50px;
+}
+.sub{
+         color: brown;
+        font-size:40px;
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration-line: underline;
+    
+}
+.seviceslist div{
+    background-color: rgb(173, 215, 202);
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+  }
+.seviceslist div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.seviceslist div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.seviceslist div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.seviceslist div:hover{
+    background-color: indianred;
+    transition:ease-in;
+    transition-duration:0.4s;
+    transform: translateY(-12px);
+    transform-style: inherit;
+   
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    display: flex;
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+    color: white;
+}
+.contact-left p i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons a{
+    text-decoration: none;
+    font-size:35px;
+    margin-right: 15px;
+    display: inline-block;
+transition: transform 0.5s;
+}
+.icons a:hover{
+    transform: translateY(-5px);
+}
+#inst{
+    color: rgba(213, 7, 48, 0.693);
+}
+#tel{
+    color: rgb(17, 130, 244);
+}
+#tw{
+    color: rgb(25, 25, 182);
+}
+.btn{
+    display: inline-block;
+    background-color: tomato;
+    border-radius: 10px;
+}
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 80%;
+    border: 0;
+    outline:none;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#contact{
+    background-color: rgb(28, 22, 22);
+    margin-top: 10px;
+    padding: 20px;
+}
+.co{
+    color:white;
+    font-size:40px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+
+}
+form .btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+.copy{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.copy p{
+    color: white;
+    font-size: small;
+}
